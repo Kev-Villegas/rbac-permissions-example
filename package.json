@@ -1,0 +1,19 @@
+{
+  "name": "rbac-permissions-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A small, tested example of role-based permissions with a bitfield, channel overwrites and a role hierarchy.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3"
+  }
+}
